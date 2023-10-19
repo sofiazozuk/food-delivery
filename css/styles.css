@@ -1,0 +1,87 @@
+.header-styles {
+   max-width: 320px;
+   flex-shrink: 0;
+   background:  #FEFEFE;
+box-shadow: 0px 4px 24px 0px rgba(105, 105, 105, 0.10);
+}
+.header-logo-div {
+display: flex;
+
+}
+.header-nav {
+display: flex;
+flex-grow: 1;
+}
+.header-logo-link {
+padding: 10px 0 10px 20px;
+}
+.header-logo {
+
+}
+.menu-button {
+display: flex;
+border: none;
+background-color: transparent;
+padding: 22px 20px 22px 0;
+}
+.menu-button {
+}
+/* Main */
+/* Enjoy section */
+.header-enjoy {
+color: #2C2C2C;
+font-family: Roboto;
+font-size: 28px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+margin: 60px 20px 28px 20px;
+max-width: 280px;
+}
+.header-enjoy-descr {
+max-width: 266px;
+flex-shrink: 0;
+color:#2C2C2C;
+font-family: Roboto;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 20px;
+margin-right: 34px;
+margin-bottom: 32px;
+margin-left: 20px;
+}
+.button-order-now {
+display: inline-flex;
+padding: 6px 18px;
+justify-content: center;
+align-items: center;
+border-radius: 30px;
+background: #BBF330;
+border: none;
+width: 98px;
+color: #2C2C2C;
+text-align: right;
+font-family: Roboto;
+font-size: 13px;
+font-style: normal;
+font-weight: 500;
+line-height: 150%;
+margin-left: 20px;
+transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.button-order-now:hover {
+background-color:#E3F330;
+}
+.apple-background {
+        background-position: center;
+        background-size: cover;
+        background-image: linear-gradient( rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7) ), url(../images/Appleapple-mobile-min.jpg);
+    }
+.apple-picture {
+    background-color: transparent;
+
+}
+.apple-mobile {
+max-width: 280px;
+}

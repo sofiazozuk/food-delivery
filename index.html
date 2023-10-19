@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="description" content="Learning the basics of HTML for beginners" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DELYVERYFOOD</title>
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&family=Roboto:wght@400;500;700&display=swap"
+        rel="stylesheet">
+    <!-- Normalazing -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
+        integrity="sha512-4xo8blKMVCiXpTaLzQSLSw3KFOVPWhm/TRtuPVc4WG6kUgjH6J03IBuG7JZPkcWMxJ5huwaBpOpnwYElP/m6wg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Styles -->
+    <link rel="stylesheet" href="./css/styles.css" />
+</head>
+
+<body>
+    <header class="header-styles">
+        <div class="header-logo-div">
+            <nav class="header-nav">
+                <a class="header-logo-link" href="./index.html">
+                    <svg class="header-logo" width="66" height="52">
+                        <use href="./images/logo.svg#icon-Vector"></use>
+                    </svg>
+                </a>
+            </nav>
+            <button class="menu-button" id="open-menu" type="menu">
+                <svg width="28" height="28">
+                    <use href="./images/menu.svg#icon-gg_menu"></use>
+                </svg>
+            </button>
+    </header>
+    <main>
+        <!-- Enjoy section -->
+        <section>
+            <div>
+                <h2 class="header-enjoy">Enjoy Your Favorite Food From Anywhere</h2>
+            </div>
+            <div>
+                <h4 class="header-enjoy-descr">With just a few clicks, you can have your favorite meals delivered straight to your doorstep, no matter where you are. Order now and enjoy a hassle-free and delicious meal from the comfort of your own home.</h4>
+            </div>
+            <button class="button-order-now" type="button">Order Now</button>
+        </section>
+        <!-- Apple photo -->
+        <section class="apple-background">
+            <picture class="apple-picture">
+                <source
+                class="apple-mobile"
+                  media="(max-width: 767px)"
+                  srcset="
+                  ./images/apleapplemobile-min.png 1x,
+                  ./images/apleapplemobile@2x-min.png 2x
+                  "
+                />
+                <source
+                  media="(min-width: 768px) and (max-width: 1279px)"
+                  srcset="
+                  ./images/apleappletablet-min.png 1x,
+                  ./images/apleappletablet@2x-min.png 2x
+                  "
+                />
+                <source
+                  media="(min-width: 1280px)"
+                  srcset="
+                  ./images/apleappledesktop-min.png 1x,
+                  ./images/apleappledesktop@2x-min.png 2x
+                  "
+                />
+                <img
+                  src="./images/apleapplemobile-min.png"
+                  alt="Big green apple"
+                  width="201px"
+                />
+              </picture>
+        </section>
+    </main>
+</body>
