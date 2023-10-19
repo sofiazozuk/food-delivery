@@ -60,7 +60,7 @@ border-radius: 30px;
 background: #BBF330;
 border: none;
 width: 98px;
-color: #2C2C2C;
+color: #2C2C2C; 
 text-align: right;
 font-family: Roboto;
 font-size: 13px;
@@ -74,9 +74,7 @@ transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 background-color:#E3F330;
 }
 .apple-background {
-        background-position: center;
-        background-size: cover;
-        background-image: linear-gradient( rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7) ), url(../images/Appleapple-mobile-min.jpg);
+       
     }
 .apple-picture {
     background-color: transparent;
