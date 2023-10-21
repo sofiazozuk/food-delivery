@@ -10,9 +10,13 @@ body {
 --main-text:#2C2C2C; 
 --apple-green:#BBF330;
 --apple-yellow:#E3F330;
+--light-green:#7EB101; 
   }
-  /* General styles end */
+.container {
 
+}
+  /* General styles end */
+@media screen and (max-width: 767px) {
 /* Header start */
 .header-styles {
    max-width: 320px;
@@ -40,8 +44,7 @@ border: none;
 background-color: transparent;
 padding: 22px 20px 22px 0;
 }
-.menu-button {
-}
+
 /* Heder end */
 
 /* Main */
@@ -123,8 +126,23 @@ max-width: 280px;
     line-height: 20px; 
     margin-left: 20px;
     margin-right: 20px;
-    margin-bottom: 28px;
+    margin-bottom: 36px;
     flex-shrink: 0;
     font-style: normal;
 }
+.svg-rocket {
+fill: var(--light-green);
+}
 /* Special offer section end*/
+}
+/* Tablet */
+@media screen and (min-width: 768px) and (max-width: 1279px) {
+    .menu-button {
+        display:none;
+}
+}
+@media screen and (min-width: 1280px) and (min-width: 1440px) {
+    .menu-button {
+        display:none;
+} 
+}
